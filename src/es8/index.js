@@ -65,11 +65,15 @@ const helloWorld = () =>{
 
 };
 
+/* async await funciona para manejar el asincronismo en js y maneja una sintaxis 
+ particular para crear una tenemos que utilizar la palabra reservada async
+ y dentro de ella utilizaremos await*/
 const helloAsync = async () =>{
 
-  const hello = await helloWorld();
+  const hello = await helloWorld();  
   console.log(hello);
-
+                                   /*lo que await hace es esperar a que la funcion se ejecute
+                                     y luego imprimira los resultados en consola  */
 }
 
 
