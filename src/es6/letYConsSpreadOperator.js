@@ -76,5 +76,5 @@ console.log(globalLet); // undefined
 
 
 const a = 'b';
-a = 'a' // no podremos reasignar una constante
+a = 'a' // no podremos reasignar valor a una constante
 console.log(a); //imprime b
