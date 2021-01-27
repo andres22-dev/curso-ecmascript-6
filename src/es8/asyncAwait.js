@@ -51,3 +51,4 @@ const helloAsyc = async () =>{
 
         }
     }
+    anotherFunction();
