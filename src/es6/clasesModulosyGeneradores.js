@@ -71,6 +71,13 @@ function* helloWorld(){
 }
 
 const generatorHello = helloWorld();
+//Una invocadas las funciones lo que nos imprimira sera un valor consecuente
 
+// Primero nos devolvera el valor del primer if
 console.log(generatorHello.next().value);
+
+//Luego el del segundo
 console.log(generatorHello.next().value);
+
+//Si hay un tercera invocacion retornaria undefined ya que no existe un 3 valor
+// que estemos retornando
